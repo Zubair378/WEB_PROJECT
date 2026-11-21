@@ -15,10 +15,10 @@ npm run build
 npm test
 ```
 
-The lockfile could not be generated in the restricted development environment. Run `npm install` with internet access and commit the resulting `package-lock.json` before submission.
+The dependency lockfile is included. Use `npm ci` for a reproducible install.
 
 Repository: https://github.com/Zubair378/WEB_PROJECT  
-Deployment: not yet published
+Deployment: https://zubair378.github.io/WEB_PROJECT/
 
 ## Routes and features
 
@@ -26,7 +26,7 @@ Deployment: not yet published
 - `/meals/:id`: meal details; `/order`: editable cart and form; `/confirmation`: simulated result.
 - The cart is saved locally. Menu loading is asynchronous and errors can be retried.
 - Pickup is from F-8; delivery is available to F-8, F-10 and G-10 for Rs. 150.
-- Netlify's `public/_redirects` supports direct route refreshes if deployed there. Verify this on the actual deployment.
+- GitHub Pages uses `public/404.html` to recover direct links and refreshes on nested routes.
 
 ## Reproduce edge cases
 
@@ -49,4 +49,4 @@ Deployment: not yet published
 | Storage and asynchronous mock loading | `src/App.jsx` |
 | Rule tests | `tests/rules.test.js` |
 
-Known limitations: no real restaurant, payment, delivery, server, or live inventory. The confirmation is held in navigation state and is not a permanent receipt. The Google font needs internet; the fallback fonts work offline. Manual testing, reference screenshots, deployment and the final report still need completing.
+Known limitations: no real restaurant, payment, delivery, server, or live inventory. The confirmation is held in navigation state and is not a permanent receipt. The Google font needs internet; the fallback fonts work offline. The report needs the student identifiers, screenshots and final submission checks.
