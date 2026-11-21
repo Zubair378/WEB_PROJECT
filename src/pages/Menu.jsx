@@ -1,0 +1,9 @@
+import { useState } from 'react';
+import MealCard from '../components/MealCard';
+export default function Menu({ meals, add }) {
+  const [search, setSearch] = useState('');
+  const [category, setCategory] = useState('All');
+  const [sort, setSort] = useState('name');
+  const filtered = meals.filter(meal => `${meal.name} ${meal.description}`.toLowerCase().includes(search.toLowerCase()) && (category === 'All' || meal.category === category)).sort((a, b) => sort === 'low' ? a.price - b.price : sort === 'high' ? b.price - a.price : a.name.localeCompare(b.name));
+  return <main className="wrap"><div className="page-heading"><span className="eyebrow">MADE FOR YOUR DAY</span><h1>Find your next favourite.</h1><p>Fresh, filling meals for busy Islamabad students. See prices and availability before you choose.</p></div><div className="filters"><label>Search meals<input value={search} onChange={e => setSearch(e.target.value)} placeholder="Try chicken or chickpeas" /></label><label>Category<select value={category} onChange={e => setCategory(e.target.value)}><option>All</option><option>Chicken</option><option>Vegetarian</option></select></label><label>Sort by<select value={sort} onChange={e => setSort(e.target.value)}><option value="name">Name</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></label></div><p className="result-count">{filtered.length} meals found</p>{!meals.length ? <div className="notice">The menu is currently empty. Please check back later.</div> : !filtered.length ? <div className="notice"><p>No meals match these choices.</p><button onClick={() => {setSearch(''); setCategory('All'); setSort('name');}}>Clear search and filters</button></div> : <div className="grid">{filtered.map(meal => <MealCard key={meal.id} meal={meal} add={add} />)}</div>}</main>;
+}
