@@ -49,4 +49,4 @@ Deployment: https://zubair378.github.io/WEB_PROJECT/
 | Storage and asynchronous mock loading | `src/App.jsx` |
 | Rule tests | `tests/rules.test.js` |
 
-Known limitations: no real restaurant, payment, delivery, server, or live inventory. The confirmation is held in navigation state and is not a permanent receipt. The Google font needs internet; the fallback fonts work offline. The report needs the student identifiers, screenshots and final submission checks.
+Known limitations: no real restaurant, payment, delivery, server, or live inventory. The confirmation is held in navigation state and is not a permanent receipt. The Google font needs internet; the fallback fonts work offline. The report needs the student identifiers and final submission checks. Evidence screenshots are in `evidence/`.

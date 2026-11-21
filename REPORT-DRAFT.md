@@ -3,7 +3,7 @@
 **Student:** Zubair Tariq  
 **Roll number / section:** ADD  
 **Repository:** https://github.com/Zubair378/WEB_PROJECT (upload and verify)  
-**Deployment:** ADD  
+**Deployment:** https://zubair378.github.io/WEB_PROJECT/  
 **Final commit:** ADD after final changes (`git rev-parse HEAD`)
 
 ## Business profile
@@ -17,15 +17,15 @@ Campus Table is a fictional student meal service in Islamabad with 12 meal optio
 | Delivery only to F-8, F-10 or G-10, fee Rs. 150; F-8 pickup free | Detail and order; unsupported or missing area blocks delivery | F-10 accepted; no selected area rejected |
 
 ## Investigation and frontend decisions
-See `DECISIONS.md` for observations, tasks, potential business consequences, alternatives, tradeoffs and code locations. Add three screenshots of the referenced flyer and three screenshots of the implemented improvements with short annotations. Verify each observation yourself; the linked PDF is only the reference menu, not evidence about its restaurant's other interfaces.
+See `DECISIONS.md` for observations, tasks, potential business consequences, alternatives, tradeoffs and code locations. Reference screenshots and application captures are in `evidence/`; see `DECISIONS.md`. The linked PDF is only the reference menu, not evidence about the restaurant's other interfaces.
 
 ## Implementation
-Add annotated screenshots of menu, meal details, order and confirmation at desktop and mobile widths.
+Screenshots of the menu, details, order, confirmation, and mobile menu are in `evidence/`.
 
 ## Verification
 Automated test: `node --test`, four cases passed (ordinary quantity, limit, over limit, changed stock). Production build passed with two dependency directive warnings. A headless Edge check at 390 px searched, added a meal, checked validation and confirmed an order; no page errors or page-wide overflow were observed in that journey.
 
-Still required: manually check 1280 px and keyboard navigation, browser console warnings, all edge cases and each improvement. Record actions, expected results, observed results and screenshots. Test the public deployment, including a direct nested route refresh. Do not claim unperformed checks.
+An automated Edge check at 1280 px covered search and filtering, details, cart restoration, validation, vegetarian conflict, delivery, confirmation, invalid ID, unavailable saved selection and loading recovery. The 390 px menu showed no horizontal overflow. The public nested detail route opened and refreshed successfully. Keyboard testing and the final submission review remain.
 
 ## Limitations
-The app is a simulation, with local rather than live stock and no payment or backend. Repository upload, deployment, screenshots, final commit and student identifiers remain incomplete. Generate the PDF only after completing the evidence and checking the result.
+The app is a simulation, with local rather than live stock and no payment or backend. The final commit and student identifiers must be inserted into the report before submission.
