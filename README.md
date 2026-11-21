@@ -26,7 +26,7 @@ Deployment: https://zubair378.github.io/WEB_PROJECT/
 - `/meals/:id`: meal details; `/order`: editable cart and form; `/confirmation`: simulated result.
 - The cart is saved locally. Menu loading is asynchronous and errors can be retried.
 - Pickup is from F-8; delivery is available to F-8, F-10 and G-10 for Rs. 150.
-- GitHub Pages uses `public/404.html` to recover direct links and refreshes on nested routes.
+- GitHub Pages uses `public/404.html` to recover direct links and refreshes on nested routes. Vercel uses the rewrite in `vercel.json` and builds at the root URL.
 
 ## Reproduce edge cases
 
