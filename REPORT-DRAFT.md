@@ -1,8 +1,8 @@
 # Assignment 02 report draft — Campus Table
 
-**Student:** Zubair Tariq  
-**Roll number / section:** ADD  
-**Repository:** https://github.com/Zubair378/WEB_PROJECT (upload and verify)  
+**Student:** Muhammad Zubair Tariq  
+**Roll number / section:** 24i-2095 / CY-C  
+**Repository:** https://github.com/Zubair378/WEB_PROJECT   
 **Deployment:** https://zubair378.github.io/WEB_PROJECT/  
 **Final commit:** ADD after final changes (`git rev-parse HEAD`)
 
@@ -28,4 +28,4 @@ Automated test: `node --test`, four cases passed (ordinary quantity, limit, over
 An automated Edge check at 1280 px covered search and filtering, details, cart restoration, validation, vegetarian conflict, delivery, confirmation, invalid ID, unavailable saved selection and loading recovery. The 390 px menu showed no horizontal overflow. The public nested detail route opened and refreshed successfully. Keyboard testing and the final submission review remain.
 
 ## Limitations
-The app is a simulation, with local rather than live stock and no payment or backend. The final commit and student identifiers must be inserted into the report before submission.
+The app is a simulation, with local rather than live stock and no payment or backend. The final PDF report is submitted separately.

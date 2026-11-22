@@ -1,6 +1,6 @@
 # Campus Table
 
-Student: Zubair Tariq · Roll number and section: to be added
+Student: Muhammad Zubair Tariq · Roll number: 24i-2095 · Section: CY-C
 
 Campus Table is a fictional meal service for Islamabad university students. Customers browse meals, make a selection and complete a simulated order. No orders or payments are sent.
 
@@ -49,4 +49,4 @@ Deployment: https://zubair378.github.io/WEB_PROJECT/
 | Storage and asynchronous mock loading | `src/App.jsx` |
 | Rule tests | `tests/rules.test.js` |
 
-Known limitations: no real restaurant, payment, delivery, server, or live inventory. The confirmation is held in navigation state and is not a permanent receipt. The Google font needs internet; the fallback fonts work offline. The report needs the student identifiers and final submission checks. Evidence screenshots are in `evidence/`.
+Known limitations: no real restaurant, payment, delivery, server, or live inventory. The confirmation is held in navigation state and is not a permanent receipt. The Google font needs internet; the fallback fonts work offline. The final PDF report is submitted separately. Evidence screenshots are in `evidence/`.
