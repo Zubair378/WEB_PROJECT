@@ -4,7 +4,7 @@
 **Roll number / section:** 24i-2095 / CY-C  
 **Repository:** https://github.com/Zubair378/WEB_PROJECT   
 **Deployment:** https://zubair378.github.io/WEB_PROJECT/  
-**Final commit:** ADD after final changes (`git rev-parse HEAD`)
+**Final commit:** See the submitted PDF report.
 
 ## Business profile
 Campus Table is a fictional student meal service in Islamabad with 12 meal options. Its audience is university students seeking quick, affordable meals. Customers browse, choose portions and simulate a pickup or delivery order. Its goal is a completed, reviewed order.
